@@ -9,6 +9,7 @@ from policy_eps_greedy import EpsGreedyPolicy
 
 from config import EPSILON_START, EPSILON_END, EPS_DECAY_STEPS, LEARNING_RATE
 
+
 def build_agent(state_dim: int,
                 action_dim: int,
                 device: torch.device,
